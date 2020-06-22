@@ -1,20 +1,20 @@
 /* Create a class called “Book” which has variable Subject(String),Title (String),Publisher(String),year_of_publication(int).
-* Write two  parameterised constructor to initialise the values “Public Book(String Subject,String Title,String Publisher, int year_of_publication)”, 
-* “public Book(String Title)”. Write a method  getBookTitle() which returns back a String.
-*
-* Create a class called “FacultyMember” with variables id(int),Name(String),Designation(String),Department(String),books(An array of object of class “Book”). 
-* Assume that “books” variable contains all the books borrowed by the FacultyMember from the University library where there is no maximum number. 
-* Overload constructors by writing four public constructors.
-*	FacultyMember (int id,String Name)
-*	FacultyMember (int id, String Name,String Designation)
-*	FacultyMember(int id,String Name,String Designation,String Department) 
-*	FacultyMember(int id, String Name,String Designation,String Department, Book [] books))
-* Call one constructor in wherever possible.
-*	Overload method Public Book UpdateBooks()which when invoked with index(int),title(String) where index is the position of the book and title is
-*  the title of the new book which is replacing the book in the given index and returns back the old book.When the method is invoked  with an index(int), 
-* replbook(Book) will replace the existing book at index value with replbook and returns back the old book. Also print the title of the book  returned.
-*
-* Write main method in FacultyMember class create one object called  facultymember for the class FacultyMember.
+ Write two  parameterised constructor to initialise the values “Public Book(String Subject,String Title,String Publisher, int year_of_publication)”, 
+ “public Book(String Title)”. Write a method  getBookTitle() which returns back a String.
+
+ Create a class called “FacultyMember” with variables id(int),Name(String),Designation(String),Department(String),books(An array of object of class “Book”). 
+ Assume that “books” variable contains all the books borrowed by the FacultyMember from the University library where there is no maximum number. 
+ Overload constructors by writing four public constructors.
+	FacultyMember (int id,String Name)
+	FacultyMember (int id, String Name,String Designation)
+	FacultyMember(int id,String Name,String Designation,String Department) 
+	FacultyMember(int id, String Name,String Designation,String Department, Book [] books))
+ Call one constructor in wherever possible.
+	Overload method Public Book UpdateBooks()which when invoked with index(int),title(String) where index is the position of the book and title is
+  the title of the new book which is replacing the book in the given index and returns back the old book.When the method is invoked  with an index(int), 
+ replbook(Book) will replace the existing book at index value with replbook and returns back the old book. Also print the title of the book  returned.
+
+ Write main method in FacultyMember class create one object called  facultymember for the class FacultyMember.
 */
 
 import java.util.*;
