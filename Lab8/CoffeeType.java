@@ -4,7 +4,7 @@ We all are missing the coffee machine in the University and to overcome it we ar
 
 planning to write few classes to implement usage of coffee machine. Assume there are
 
-3 types of filter coffee, expresso, cappuccino, Design your own hierarchy of classes use abstract,
+3 types of filter coffee, espresso, cappuccino, Design your own hierarchy of classes use abstract,
 
 super and final  appropriately.Create a class called coffeemachine as abstract class
 */
@@ -48,7 +48,7 @@ class Cappuccino extends CoffeeMachine
 	}
 }
 
-public class coffee
+public class CoffeeType
 {    
 	public static void main(String args[])
 	{        
