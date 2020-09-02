@@ -2,6 +2,7 @@
 Create a generic class "Stack" and generic methods called " Push" and "Pop" which inserts and deletes elements.Create a minimum of two objects and implement the methods.
 */
 import java.util.*;
+@SuppressWarnings({"unchecked"})
 class Stack<T extends Object>
 {
     private int stackSize;
